@@ -41,13 +41,13 @@
 
                 raise_layer {
 // -----------------------------------------------------------------------------------------
-// | ESC |  F1 |  F2 |  F3 |  F4 |   |  F5 |BT_PRV|BT_NXT|BT_SEL 0|BT_SEL 0|
+// | ESC |  F1 |  F2 |  F3 |  F4 |   |BT_CLR|BT_PRV|BT_NXT|BT_SEL 0|BT_SEL 0|
 // | TAB |     |     |     |     |   | LEFT| DOWN | UP  |RIGHT|     |
 // |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &   |  *  |  (  |  )  |
 //             | LGUI|     | SPC |   |     |      |     |
 
                         bindings = <
-   &trans  &kp ESC &kp F1 &kp F2 &kp F3 &kp F4    &kp F5 &bt BT_PRV &bt BT_NXT &bt BT_SEL 0 &bt BT_SEL 1 &trans
+   &trans  &kp ESC &kp F1 &kp F2 &kp F3 &kp F4    &bt BT_CLR &bt BT_PRV &bt BT_NXT &bt BT_SEL 0 &bt BT_SEL 1 &trans
    &trans &kp TAB &trans &trans &trans &trans   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
    &trans &kp EXCL &kp AT &kp POUND &kp DLLR &kp PRCNT   &kp CRRT &kp AMPS &kp ASTRK &kp LPAR &kp RPAR &trans
                     	     &kp LGUI &trans &kp SPACE   &trans &trans &trans
