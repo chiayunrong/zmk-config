@@ -28,26 +28,26 @@
                 lower_layer {
 // -----------------------------------------------------------------------------------------
 // |  1  |  2  |  3  |  4  |  5  |   |  6  |  7   |  8  |  9  |  0  |
-// |     |     |  ~  |  `  |  {  |   |  }  |  '   |  (  |  -  |  + |
-// |     |     |  \  |  |  |  [  |   |  ]  |  "   |  )  |  _  |  = |
+// |     |     |  ~  |  `  |  {  |   |  }  |  (   |  "  |  -  |  + |
+// |     |     |  \  |  |  |  [  |   |  ]  |  )   |  '  |  _  |  = |
 //             | LGUI|     |SPACE|   |     |      |     |
                         bindings = <
    &trans &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5      &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &trans
-   &trans &trans &trans &kp TILDE &kp GRAVE &kp LBRC      &kp RBRC &kp SQT &kp LPAR &kp MINUS &kp PLUS &trans
-   &trans &trans &trans &kp BSLH &kp PIPE &kp LBKT    &kp RBKT &kp DQT &kp RPAR &kp UNDER &kp EQUAL &trans
+   &trans &trans &trans &kp TILDE &kp GRAVE &kp LBRC      &kp RBRC &kp LPAR &kp DQT &kp MINUS &kp PLUS &trans
+   &trans &trans &trans &kp BSLH &kp PIPE &kp LBKT    &kp RBKT &kp RPAR &kp SQT &kp UNDER &kp EQUAL &trans
                   &kp LGUI &trans &kp SPACE     &kp RSHIFT &trans &trans
                         >;
                 };
 
                 raise_layer {
 // -----------------------------------------------------------------------------------------
-// | ESC |  F1 |  F2 |  F3 |  F4 |   | F5  |BT_PRV|BT_NXT|BT_SEL 0|BT_SEL 0|
+// | ESC |  F1 |  F2 |  F3 |  F4 |   | F5  |  F6  |  F7 |BT_SEL 0|BT_SEL 1|
 // | TAB |     |     |     | DEL |   | BSPC| LEFT | DOWN| UP  |RIGHT|
 // |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &   |  *  |     |     |
 //             | LGUI|     |SPACE|   |     |      |     |
 
                         bindings = <
-   &trans  &kp ESC &kp F1 &kp F2 &kp F3 &kp F4    &kp F5 &bt BT_PRV &bt BT_NXT &bt BT_SEL 0 &bt BT_SEL 1 &trans
+   &trans  &kp ESC &kp F1 &kp F2 &kp F3 &kp F4    &kp F5 &kp F6 &kp F7 &bt BT_SEL 0 &bt BT_SEL 1 &trans
    &trans &kp TAB &trans &trans &trans &kp DELETE   &kp BSPC &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans
    &trans &kp EXCL &kp AT &kp POUND &kp DLLR &kp PRCNT   &kp CRRT &kp AMPS &kp ASTRK &kp LPAR &kp RPAR &trans
                     	     &kp LGUI &trans &kp SPACE   &trans &trans &trans
