@@ -12,7 +12,7 @@
     combos {
         compatible = "zmk,combos";
         ctrl {
-            key-positions = <38 41>;
+            key-positions = <33 3R4>;
             bindings = <&kp LCTRL>;
         };
     };
@@ -48,7 +48,7 @@
 
         raise_layer {
             // -----------------------------------------------------------------------------------------
-            // | ESC |  F1 |  F2 |  F3 |  F4 |   | F5  |  F6  |  F7 |BT_NXT|BT_CLR|
+            // | ESC |  F1 |  F2 |  F3 |  F4 |   | F5  |  F6  |  F7 |BT_NXT|BT_CL|
             // | TAB |     |     |     | DEL |   | BSPC| LEFT | DOWN| UP  |RIGHT|
             // |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &   |  *  |     |     |
             //             | LGUI|     |SPACE|   |     |      |     |
